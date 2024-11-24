@@ -1,10 +1,5 @@
 Plugin Builder Results
 
-Your plugin AutoNumbering was created in:
-    C:/Users/Med ELFADILY/Desktop/pluginCL\auto_numbering
-
-Your QGIS plugin directory is located at:
-    C:/Users/Med ELFADILY/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins
 
 What's Next:
 
