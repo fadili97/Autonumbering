@@ -78,13 +78,11 @@ class AutoNumbering:
         self.reset_btn = QPushButton("Reset All Numbers")
         self.reset_btn.clicked.connect(self.reset_numbers)
         
-        self.restart_btn = QPushButton("Restart from 1")
-        self.restart_btn.clicked.connect(self.restart_numbering)
+
         
         # Add buttons to layout
         layout.addWidget(self.undo_btn)
         layout.addWidget(self.reset_btn)
-        layout.addWidget(self.restart_btn)
         layout.addStretch()
         
         dock_content.setLayout(layout)
@@ -243,9 +241,6 @@ class AutoNumbering:
             self.history.clear()
             self.undo_btn.setEnabled(False)
 
-    def restart_numbering(self):
-        if not self.layer:
-            return
             
         field_idx = self.layer.fields().indexOf(self.field_name)
         
