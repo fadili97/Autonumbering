@@ -1,0 +1,18 @@
+
+[general]
+name=Auto Numbering
+qgisMinimumVersion=3.0
+description=Automatically number polygons by selection
+version=0.1
+author=ELFADILY GEOCONSEIL
+email=elfadily.igt@gmail.com
+about=This plugin allows automatic numbering of polygons when they are selected
+tracker=http://bugs
+repository=http://repo
+hasProcessingProvider=no
+tags=python,polygon,numbering
+homepage=http://homepage
+category=Vector
+icon=icon.png
+experimental=False
+deprecated=False
